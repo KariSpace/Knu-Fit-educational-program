@@ -4236,9 +4236,10 @@ input[type="button"].btn-block {
     transition: opacity .15s linear
 }
 
-.in {
+
+/* .in {
     margin-top: 45px;
-}
+} */
 
 .fade.in {
     opacity: 1

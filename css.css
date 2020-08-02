@@ -4236,6 +4236,10 @@ input[type="button"].btn-block {
     transition: opacity .15s linear
 }
 
+.in {
+    margin-top: 45px;
+}
+
 .fade.in {
     opacity: 1
 }
@@ -5084,7 +5088,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-collapse.in {
-    overflow-y: auto
+    overflow-y: auto;
 }
 
 @media(min-width:768px) {
@@ -5204,10 +5208,11 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-toggle {
-    position: relative;
+    position: absolute;
     float: right;
     margin-right: 15px;
     padding: 9px 10px;
+    left: 0px;
     margin-top: 5.5px;
     margin-bottom: 5.5px;
     background-color: transparent;
